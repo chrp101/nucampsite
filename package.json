@@ -1,0 +1,29 @@
+{
+  "name": "nucampsite",
+  "version": "1.0.0",
+  "description": "This is a website for a fictional campsites review website.",
+  "source": "index.html",
+  "scripts": {
+    "start": "npx parcel index.html --open",
+    "build": "npx parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucamp/webfun-nucampsite-cdn.git"
+  },
+  "keywords": [],
+  "author": "CHRISTOPHER PENA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nucamp/webfun-nucampsite-cdn/issues"
+  },
+  "homepage": "https://github.com/nucamp/webfun-nucampsite-cdn#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3"
+  }
+}
