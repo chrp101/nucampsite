@@ -60,11 +60,21 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i
                                 class="fa-solid fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
-                <span class="navbar-text ms-auto">
-                    <a role="button" data-bs-toggle="modal" data-bs-target="#loginModal">
-                        <i class="fa-solid fa-right-to-bracket"></i> Login
-                    </a>
-                </span>
+                
+                <div class="ms-auto d-flex align-items-center">
+                    <!-- Weather Component -->
+					<div id="weather" class="d-flex align-items-center me-3">
+						<div id="weather-icon" class="me-2"></div>
+						<span id="weather-temp" class="me-2"></span>
+						<span id="weather-description" class="d-none d-lg-inline"></span>
+					</div>
+                    
+                    <span class="navbar-text">
+                        <a role="button" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            <i class="fa-solid fa-right-to-bracket"></i> Login
+                        </a>
+                    </span>
+                </div>
             </div>
         </div>
     </nav>
@@ -303,6 +313,8 @@
 
     <!-- Bootstrap JavaScript plugins -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="./scripts.js"></script>
+
 
 </body>
 

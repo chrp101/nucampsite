@@ -1,0 +1,29 @@
+.navbar-dark {
+  background-color: #212529;
+
+  .navbar-nav .nav-link {
+    color: #ffffff;
+
+    &:hover,
+    &.active {
+      color: #ffc107;
+    }
+  }
+
+  .navbar-text a {
+    color: #ffffff;
+
+    &:hover {
+      color: #ffc107;
+    }
+  }
+}
+
+// Optional weather styling
+#weather {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+  color: white;
+  font-size: 0.9rem;
+}
